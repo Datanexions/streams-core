@@ -2,7 +2,9 @@ package org.datanexions.streams.config;
 
 import java.util.List;
 import java.util.Map;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class ConnectionConfig {
     private String connectionName;
     private String connectorClass;

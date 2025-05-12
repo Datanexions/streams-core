@@ -1,4 +1,13 @@
 /target/
+/bundle/
+/scripts/
+/repo/
+/*.zip
+*.asc
+*.md5
+*.sha1
+test.txt
+test.txt.*
 /.idea/
 /*.iml
 .DS_Store
